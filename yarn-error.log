@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\raja roy\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js compile
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\raja roy\AppData\Local\Programs\Microsoft VS Code\_;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\raja roy\AppData\Roaming\npm;C:\Users\raja roy\AppData\Roaming\npm\;C:\Users\adminraja\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Users\raja roy\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\raja roy\AppData\Local\Programs\Python\Python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\raja roy\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm 2019.3.2\bin;C:\Users\raja roy\AppData\Local\GitHubDesktop\bin;C:\Users\raja roy\AppData\Local\Programs\IPFS Desktop\resources\app.asar.unpacked\src\ipfs-on-path\scripts\bin-w;C:\Users\raja roy\AppData\Local\Programs\Microsoft VS Code\_;C:\Program Files\Docker Toolbox;C:\Users\raja roy\.local\bin;;C:\Users\raja roy\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\Docker Toolbox;C:\Pro;C:\Users\raja roy\.dotnet\tools;C:\Users\raja roy\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\raja roy\Desktop\ETHEREUM_PROJECT\AdvancedBlockChainTest\package.json: Unexpected string in JSON at position 181
+      at JSON.parse (<anonymous>)
+      at C:\Users\raja roy\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\raja roy\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\raja roy\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "AdvancedBlockChainTest",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts":{
+      "compile":"hardhat compile",
+      "test":"hardhat test"
+    }
+    "devDependencies": {
+      "@nomiclabs/hardhat-ethers": "^2.0.4",
+      "@nomiclabs/hardhat-waffle": "^2.0.2",
+      "chai": "^4.3.4",
+      "ethereum-waffle": "^3.4.0",
+      "ethers": "^5.5.3",
+      "hardhat": "^2.8.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
